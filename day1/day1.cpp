@@ -28,15 +28,17 @@ int main(int argc, char const *argv[])
 
 	answer += *(std::max_element(elves.begin(), elves.end()));
 
-	elves.erase(std::max_element(elves.begin(), elves.end()));
-
-	answer += *(std::max_element(elves.begin(), elves.end()));
+	std::cout << "Answer 1: " << answer << std::endl;
 
 	elves.erase(std::max_element(elves.begin(), elves.end()));
 
 	answer += *(std::max_element(elves.begin(), elves.end()));
 
-	std::cout << answer << std::endl;
+	elves.erase(std::max_element(elves.begin(), elves.end()));
+
+	answer += *(std::max_element(elves.begin(), elves.end()));
+
+	std::cout << "Answer 2: " << answer << std::endl;
 
 	return 0;
 }
