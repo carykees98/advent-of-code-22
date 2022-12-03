@@ -7,6 +7,7 @@ int main(int argc, char const *argv[])
 	fileName.replace(fileName.end() - 3, fileName.end(), "txt");
 	std::ifstream infile(fileName);
 
+	// Variable declarations
 	int answer1, answer2;
 
 	// Solution
