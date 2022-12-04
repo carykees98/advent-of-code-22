@@ -9,9 +9,10 @@ int main(int argc, char const *argv[])
 
 	// Variable declarations
 	int answer1, answer2;
+	std::string line;
 
 	// Solution
-	while (infile >>)
+	while (infile >> line)
 	{
 	}
 
