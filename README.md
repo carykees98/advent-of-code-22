@@ -4,7 +4,7 @@ This is the code for my attempt at AoC 2022, this was also my first time partici
 
 Each day contains the source ```.cpp``` file as well as the data set that I used for solving that days problem. Each solution was built using the C++17 standard.
 
-I also rewrote some of the days solutions in another language for practice and the source for the other language is also in that folder.
+I also rewrote some of the days solutions in another language for practice and the source for the other language is also in that day's folder.
 
 
 ## ```newday``` tool
