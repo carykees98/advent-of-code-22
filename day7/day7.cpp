@@ -1,6 +1,5 @@
 #include "../aoc-utils/aocIncludes.h"
 #include <map>
-#include <cstdlib>
 
 int main(int argc, char const *argv[])
 {
@@ -18,7 +17,6 @@ int main(int argc, char const *argv[])
 	std::string line;
 
 	// Solution
-	srand(time(0));
 	std::getline(infile, line);
 
 	while (infile >> line)
