@@ -7,8 +7,8 @@ int main(int argc, char const *argv[])
 	fileName.replace(fileName.end() - 3, fileName.end(), "txt");
 	std::ifstream infile(fileName);
 
-	// Variable declarations
-	int answer1, answer2;
+	// Variable Declarations
+	int answer1 = 0, answer2 = 0;
 	std::string line;
 
 	// Solution
