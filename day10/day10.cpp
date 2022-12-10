@@ -29,10 +29,7 @@ int main(int argc, char const *argv[])
 		startingCycle = cycleNum;
 	iknowitsbad:
 		command = lines[i].substr(0, 4);
-		if (command == "noop")
-		{
-		}
-		else if (command == "addx")
+		if (command == "addx")
 		{
 			toAdd = std::stoi(lines[i].substr(5));
 		}
